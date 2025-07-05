@@ -4,6 +4,8 @@
   vars_files:
   - course.yaml
   tasks:
-  -name: print course information
+  - name: print course information
     ansible.builtin.debug:
       msg: Course is {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}
+
+
