@@ -6,7 +6,7 @@
     prompt: Enter Course name
     private: false
   - name: DURATION
-    prompt: Enetr Duration:
+    prompt: Enetr Duration
     private: false
 
   - name: TRAINER
