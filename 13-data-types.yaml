@@ -16,10 +16,10 @@
       cloud: AWS
       containerisation: Docker
 
-    tasks:
-    - name: print course information
-      ansible.buitin.debug:
-        msg: "Hello I am learning {{ COURSE_NAME }}, DURATION is {{ DURATION }}, topics are {{ topics }}, is it live? {{ live }}, tools we use are {{ tools }}"
+  tasks:
+  - name: print course information
+    ansible.buitin.debug:
+      msg: "Hello I am learning {{ COURSE_NAME }}, DURATION is {{ DURATION }}, topics are {{ topics }}, is it live? {{ live }}, tools we use are {{ tools }}"
 
 
 # - name: DevOps course information
