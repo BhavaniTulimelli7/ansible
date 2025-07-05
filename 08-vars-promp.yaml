@@ -3,14 +3,14 @@
   connection: local
   vars_prompt:
   - name: COURSE
-    Prompt: Enter Course name:
+    prompt: Enter Course name:
     Private: false
   - name: DURATION
-    Prompt: Enetr Duration:
+    prompt: Enetr Duration:
     Private: false
 
   - name: TRAINER
-    Prompt: Enter Trainer name:
+    prompt: Enter Trainer name:
     Private: false
   tasks:
   - name: print course information
