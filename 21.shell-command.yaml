@@ -1,0 +1,9 @@
+- name: shell vs command
+  hosts: local
+  connection: local
+  tasks:
+  - name: exceute ls command
+    ansible.builtin.shell: ls -ltr > /tmp/output.txt
+
+  - name: execute ls command in command module
+    ansible.builtin.command: ls -ltr > /tmp/output.txt 
